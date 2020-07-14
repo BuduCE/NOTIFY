@@ -3,7 +3,7 @@ $umail="";
 if(isset($_POST["submit"]))
 {
     $umail=$_POST["umail"];
-    $conn=new mysqli("	i2cpbxbi4neiupid.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","hod1e44ybrm19fne","	k3dy7arlaoek4mpp","fv5kqyr36zg9yp1a");
+    $conn=new mysqli("i2cpbxbi4neiupid.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","hod1e44ybrm19fne","k3dy7arlaoek4mpp","fv5kqyr36zg9yp1a");
     $cmd="INSERT into registration value('$umail');";
     if (mysqli_query($conn, $cmd))
     {
