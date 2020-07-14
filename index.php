@@ -1,3 +1,23 @@
+<?php
+$umail="";
+if(isset($_POST["submit"]))
+{
+    $umail=$_POST["umail"];
+    $conn=new mysqli("localhost","root","","mydata");
+    $cmd="INSERT into registration value('$umail');";
+    if (mysqli_query($conn, $cmd))
+    {
+    echo "sucessfully";
+    }
+    else
+    {
+    echo "Not Save";
+    }
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -31,6 +51,10 @@
                     <img src="./images/logo.png">
                     <h2 style="color: #203893;font-weight:bold;height: 88px;font-size: 72px;">NOTIFY</h2>
                     <p>I bet you would love to be<br>notified when this app launches</p>
+                    <form method = "post">    
+                        <input type="email" name="umail" placeholder="enter email">
+                        <input type="submit" name="submit">
+                    </form>    
                 </div>
             </div>
 
