@@ -3,7 +3,7 @@ $umail="";
 if(isset($_POST["submit"]))
 {
     $umail=$_POST["umail"];
-    $conn=new mysqli("localhost","root","","mydata");
+    $conn=new mysqli("	i2cpbxbi4neiupid.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","hod1e44ybrm19fne","	k3dy7arlaoek4mpp","fv5kqyr36zg9yp1a");
     $cmd="INSERT into registration value('$umail');";
     if (mysqli_query($conn, $cmd))
     {
@@ -36,8 +36,8 @@ if(isset($_POST["submit"]))
                     <p>A Customized, Unified Space for<br>all your<span style="color: #203893;">Social Media Notifications</span></p>
                     <p style="color: #203893; font-size: 30px; font-weight: bold; height: 88px;">Coming Soon</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 p-5" style="background:  #F5F7F7;text-align: center;">
-                    <img src="./images/phone.png">
+                <div class="col-lg-6 col-md-12 col-sm-12" style="background: #F5F7F7; text-align: center;">
+                    <img src="./images/phone.png" class="p-5">
                 </div>
             </div>
         </section>
@@ -45,7 +45,7 @@ if(isset($_POST["submit"]))
         <footer class="container-fluid p-5" style="background: #C7CFEE;">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <img src="./images/socials.png" style="width: 100%; height: auto;">
+                    <img src="./images/socials.png ">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12" style="padding-left: 15%;padding-top: 10%">
                     <img src="./images/logo.png">
