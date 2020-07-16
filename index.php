@@ -23,59 +23,39 @@ if(isset($_POST["submit"]))
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Designer'sPortfolio</title>
+        <title>NOTIFY</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <style>
-            @media (max-width: 768){
-                .large{
-                    display: none;
-                }
-            }
-            @media (min-width: 769){
-                .small{
-                    display:none;
-                }
-            }
-        </style>
     </head>
     <body>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 container" style="padding-left: 10%;padding-top: 5%">
+                <div class="col-lg-6 col-md-12 col-sm-12 container" style="padding-left: 10%;padding-top: 5%;animation-name: first;animation-duration: 5s;">
                     <img src="./images/logo.png">
                     <h1 style="color: #203893;font-weight:bold;height: 88px;font-size: 400%;">Notify</h1>
-                    <p style="height:74px; font-size: 100%"">A Customized, Unified Space for<br>all your<span style="color: #203893;height:74px; font-size: 130%"> Social Media Notifications</span></p>
-                    <p style="color: #203893; font-size: 100%; font-weight: bold; height: 37px;">COMING SOON</p>
+                    <p style="height:74px; font-size: 100%;">A Customized, Unified Space for<br>all your<span style="color: #203893;height:74px; font-size: 130%"> Social Media Notifications</span></p>
+                    <p style="color: #203893; font-size: 100%; font-weight: bold; height: 37px;" class="coming">COMING SOON</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12" style="background: #F5F7F7; text-align: center;">
-                    <img src="./images/phone.png" class="p-5" style="width:50%">
+                <div class="col-lg-6 col-md-12 col-sm-12" style="background: #F5F7F7; text-align: center;animation-name: second;animation-duration: 5s;">
+                    <img src="./images/phone.png" class="p-5 first" style="width:50%">
                 </div>
             </div>
         </section>
 
-        <section class="container py-5">
+        <section class="container-fluid py-5" style="background: #203893;">
 
-            <h2 class="topic py-5" style="text-align:center;">About Notify</h2>
+            <h2 class="topic py-5" style="text-align:center; color: white;">About Notify</h2>
 
             <div class="row">
 
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pl-5 abt" style="text-align: center;">
-                    <img src="./images/twitter.png" class="pb-2">
-                    <img src="./images/Linkedin.png" class="pb-2">
-                    <img src="./images/instagram.png">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
+                    <img src="./images/blue_social.svg" style=" width: 30%;">
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pb-5" style="text-align: center;"><!--font-size:90%;height: 27px;-->
-                    <p>Notify is a social media notification and management platform that filters and houses all notifications from your selected social media accounts.</p><br>
-                    <p>Rather than having to navigate from one app to another to respond to importantmentions during your busy schedules, Notify gives the user an oganized social media space and performance to reply important posts, or tags, activities, events and engage with their audience from within one platform</p>
-                </div>
-
-                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pl-5 abt" style="text-align: center;">
-                    <img src="./images/instagram.png" class="pb-2">
-                    <img src="./images/slack.png" class="pb-2">
-                    <img src="./images/snapchat.png">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 py-5 pl-5" style="color: white;"><!--font-size:90%;height: 27px;-->
+                    <p style="width: 70%">Notify is a social media notification and management platform that filters and houses all notifications from your selected social media accounts.</p><br>
+                    <p style="width: 70%">Rather than having to navigate from one app to another to respond to importantmentions during your busy schedules, Notify gives the user an oganized social media space and performance to reply important posts, or tags, activities, events and engage with their audience from within one platform</p>
                 </div>
 
             </div>
@@ -93,22 +73,22 @@ if(isset($_POST["submit"]))
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/1.png" class="py-2">
                     <h6>sign in or sign up</h6>
-                    <p style="width: 250px;" class="py-2">Create an account with your personal details</p>
+                    <p style="width: 80%;" class="py-2">Create an account with your personal details</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/2.png" class="py-2">
                     <h6>Select your Accounts</h6>
-                    <p style="width: 250px;" class="py-2">Add all your social media accounts according to your level of priority. With 5 being the highest.</p>
+                    <p style="width: 80%;" class="py-2">Add all your social media accounts according to your level of priority. With 5 being the highest.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/3.png" class="py-2">
                     <h6>Verify your accounts</h6>
-                    <p style="width: 250px;" class="py-2">Verification code will be sent to you on each app you want linked</p>
+                    <p style="width: 80%;" class="py-2">Verification code will be sent to you on each app you want linked</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/4.png" class="py-2">
                     <h6>Dashboard</h6>
-                    <p style="width: 250px;" class="py-2">Viola<br><br>Your dashboard containing all your registered accounts</p>
+                    <p style="width: 80%;" class="py-2">Viola<br><br>Your dashboard containing all your registered accounts</p>
                 </div>
             </div>
         </section>
@@ -122,18 +102,18 @@ if(isset($_POST["submit"]))
                     <img src="./images/phone.png" style="width:50%">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <p style="width: 412px;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 large">
-                    <p style="width: 412px;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <img src="./images/phone.png" style="width:50%">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 small">
-                    <p style="width: 412px;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
                 </div>
             </div>
         </section>
@@ -145,12 +125,11 @@ if(isset($_POST["submit"]))
                     <img src="./images/socials_2.png" style="width:70%">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 pr-5" style="padding-left: 15%;padding-top: 10%">
-                    <!--<h2 style="color: #203893;font-weight:bold;height: 88px;font-size: 72px;">NOTIFY</h2>
-                    <p>I bet you would love to be<br>notified when this app launches</p>-->
-                    <p style="width: 120%;">Let’s help keep your Social Media Notifications organized when we launch.</p>
-                    <form method = "post">    
-                        <input type="email" name="umail" placeholder="enter email">
-                        <input type="submit" name="submit">
+                    
+                    <p style="width: 120%;">Let’s help keep your Social Media Notifications<br>organized when we launch.</p>
+                    <form method = "post" class="py-3">    
+                        <input type="email" name="umail" placeholder="Enter Email Address" style="border-color: 1px solid #203893; box-sizing: border-box; position: relative; height: 48.8px; width:65%;" class="p-2">
+                        <input type="submit" id="notify"  name="Notify Me" style="background: #203893; color: white; border: none; height: 48.8px; width: 15%;" class="px-4">
                     </form>    
                 </div>
             </div>
@@ -158,7 +137,7 @@ if(isset($_POST["submit"]))
         <footer class="container-fluid" style="background: #203893;">
             <div class="row p-5" style="text-align: center;">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <h2 style="color: white;"><span><img src="./images/logo.png"></span>Notify</h2>
+                    <h2 style="color: white;"><span><img src="./images/logo_white.svg" style=""></span>Notify</h2>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 
