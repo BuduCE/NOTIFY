@@ -113,12 +113,12 @@ if(isset($_POST["submit"]))
             </div>
         </section>
 
-        <section class="container py-5 topic" style="text-align:center;">
-                <h2>Features</h2>
-                <p width: 60%>Let's connect all your important social media notifications in one place</p>
+        <section class="container py-5 topic" >
+                <h2 style="text-align:center;">Features</h2>
+                <p style="text-align:center;">Let's connect all your important social media notifications in one place</p>
 
             <div class="row py-5">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="text-align:center;">
                     <img src="./images/i3.svg" style="width:40%; animation-name: phone1;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -131,7 +131,7 @@ if(isset($_POST["submit"]))
                     <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Never Miss Important Notifications. 
                         Bye-bye to missed opportunities. Notify allows you to determine your most important notifications and bring them straight to your reach, with an easily customizable experience. </p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="text-align:center;">
                     <img src="./images/i4.svg" style="width:40%; animation-name: phone2;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 small">
