@@ -59,7 +59,7 @@ if(isset($_POST["submit"]))
                     <p style="color: #203893; font-size: 100%; font-weight: bold; height: 37px;" class="coming">COMING SOON</p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12" style=" text-align: center;animation-name: second;animation-duration: 2s;"><!--background: #F5F7F7;-->
-                    <img src="./images/iphone1.svg" class="p-5 first" style="width:40%">
+                    <img src="./images/i1.svg" class="p-5 first" style="width:40%">
                 </div>
             </div>
         </section>
@@ -71,7 +71,7 @@ if(isset($_POST["submit"]))
             <div class="row">
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
-                    <img src="./images/iphone2.svg" style=" width: 30%;">
+                    <img src="./images/i2.svg" style=" width: 30%;">
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 py-5 pl-5" style="color: white;"><!--font-size:90%;height: 27px;-->
@@ -119,7 +119,7 @@ if(isset($_POST["submit"]))
 
             <div class="row py-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/iphone3.svg" style="width:40%; animation-name: phone1;animation-duration: 12s;">
+                    <img src="./images/i3.svg" style="width:40%; animation-name: phone1;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Get Rid of the Dirts
@@ -132,7 +132,7 @@ if(isset($_POST["submit"]))
                         Bye-bye to missed opportunities. Notify allows you to determine your most important notifications and bring them straight to your reach, with an easily customizable experience. </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/iphone4.svg" style="width:40%; animation-name: phone2;animation-duration: 12s;">
+                    <img src="./images/i4.svg" style="width:40%; animation-name: phone2;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 small">
                     <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Never Miss Important Notifications. 
@@ -145,7 +145,7 @@ if(isset($_POST["submit"]))
             <h2 class="topic" style="text-align: center;">Stay Notified</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 p-5" style="text-align: center;">
-                    <img src="./images/socials_2.png" style="width:70%">
+                    <img src="./images/i5.svg" style="width:40%">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 pr-5" style="padding-left: 15%;padding-top: 10%">
                     
