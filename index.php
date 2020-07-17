@@ -7,11 +7,11 @@ if(isset($_POST["submit"]))
     $cmd="INSERT into registration value('$umail');";
     if (mysqli_query($conn, $cmd))
     {
-    echo "sucessfully";
+    echo "Successfully done";
     }
     else
     {
-    echo "Not Save";
+    echo "Unsucessful. Try again";
     }
 }
 ?>
@@ -119,7 +119,7 @@ if(isset($_POST["submit"]))
 
             <div class="row py-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/iphone3.svg" style="width:40%; animation-name: phone1;animation-duration: 2s;animation-delay: 10s;">
+                    <img src="./images/iphone3.svg" style="width:40%; animation-name: phone1;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Get Rid of the Dirts
@@ -132,7 +132,7 @@ if(isset($_POST["submit"]))
                         Bye-bye to missed opportunities. Notify allows you to determine your most important notifications and bring them straight to your reach, with an easily customizable experience. </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/iphone4.svg" style="width:40%; animation-name: phone2;animation-duration: 2s;animation-delay: 10s;">
+                    <img src="./images/iphone4.svg" style="width:40%; animation-name: phone2;animation-duration: 12s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 small">
                     <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Never Miss Important Notifications. 
@@ -159,7 +159,7 @@ if(isset($_POST["submit"]))
         </section>
         <footer class="container-fluid" style="background: #203893;">
             <div class="row p-5" style="text-align: center;">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="animation-name: third;animation-duration: 12s;animation-iteration-count: infinite;">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="animation-name: third;animation-duration: 10s;animation-iteration-count: infinite;">
                     <h2 style="color: white;"><span><img src="./images/logo_white.svg"></span>Notify</h2>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">

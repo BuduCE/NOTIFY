@@ -31,42 +31,51 @@
 
 
 @keyframes first{
-    
-    from{ transform: translateX(-500px)}
-    to{ transform: translateX(0px)}
+    0%{top: 150px;}
+    100%{top:0;}
+    /*from{ transform: translate(-0px)}
+    to{ transform: translate(0px)}*/
 }
 @keyframes second{
-    from{ transform: translateX(500px)}
-    to{ transform: translateX(0px)}
+    0%{top: -150px;}
+    100%{top:0;}
+    /*from{ transform: translate(500px)}
+    to{ transform: translate(0px)}*/
 }
-@keyframes phone1{
-    from{ transform: translateX(-500px)}
-    to{ transform: translateX(0px)}
+/*@keyframes phone1{
+    0%{top: -150px;}
+    100%{top:0;}
+    from{ transform: translate(-500px)}
+    to{ transform: translate(0px)}
 }
 @keyframes phone2{
-    from{ transform: translateX(500px)}
-    to{ transform: translateX(0px)}
-}
+    0%{top: 150px;}
+    100%{top:0;}
+    /*from{ transform: translate(500px)}
+    to{ transform: translate(0px)}
+}*/
 @keyframes third{
-    from{ transform: translateX(-500px)}
-    to{ transform: translateX(0px)}
+    0%{top: 150px;}
+    100%{top:0;}
+    /*from{ transform: translate(-500px)}
+    to{ transform: translate(0px)}*/
 }
 @keyframes fourth{
-    /*0%{top: 50px;}
-    100%{top:0;}*/
-    from{ transform: translateX(500px)}
-    to{ transform: translateX(0px)}
+    0%{top: 150px;}
+    100%{top:0;}
+    /*from{ transform: translate(500px)}
+    to{ transform: translate(0px)}*/
 }
 .first{
     /*transform: translateX(100px,100px);scalex(2,2)*/
     transition: ;
 }
-.coming{
+/*.coming{
     transition: 0.5s linear;
 }
 .coming:hover{
     transform: rotate(360deg);
-}
+}*/
 #notify{
     position: absolute;
 }
