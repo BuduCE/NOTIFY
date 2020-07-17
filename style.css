@@ -31,34 +31,51 @@
 
 
 @keyframes first{
-    /*0%{top: 150px;}
-    100%{top:0;}*/
+    
     from{ transform: translateX(-500px)}
     to{ transform: translateX(0px)}
 }
 @keyframes second{
-    from{ transform: translateX(400px)}
+    from{ transform: translateX(500px)}
+    to{ transform: translateX(0px)}
+}
+@keyframes phone1{
+    from{ transform: translateX(-500px)}
+    to{ transform: translateX(0px)}
+}
+@keyframes phone2{
+    from{ transform: translateX(500px)}
+    to{ transform: translateX(0px)}
+}
+@keyframes third{
+    from{ transform: translateX(-500px)}
+    to{ transform: translateX(0px)}
+}
+@keyframes fourth{
+    /*0%{top: 50px;}
+    100%{top:0;}*/
+    from{ transform: translateX(500px)}
     to{ transform: translateX(0px)}
 }
 .first{
     /*transform: translateX(100px,100px);scalex(2,2)*/
     transition: ;
 }
-.coming{
+/*.coming{
     transition: 0.5s linear;
 }
 .coming:hover{
     transform: rotate(360deg);
-}
+}*/
 #notify{
     position: absolute;
 }
-@media(max-width: 768px){
+@media(max-width: 990px){
     .large{
         display: none;
     }
 }
-@media(min-width: 769px){
+@media(min-width: 990px){
     .small{
         display:none;
     }

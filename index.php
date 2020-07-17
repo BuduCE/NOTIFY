@@ -58,20 +58,20 @@ if(isset($_POST["submit"]))
 
                     <p style="color: #203893; font-size: 100%; font-weight: bold; height: 37px;" class="coming">COMING SOON</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12" style="background: #F5F7F7; text-align: center;animation-name: second;animation-duration: 2s;">
-                    <img src="./images/phone.png" class="p-5 first" style="width:50%">
+                <div class="col-lg-6 col-md-12 col-sm-12" style=" text-align: center;animation-name: second;animation-duration: 2s;"><!--background: #F5F7F7;-->
+                    <img src="./images/iphone1.svg" class="p-5 first" style="width:40%">
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid py-5" style="background: #203893;">
+        <section class="container-fluid py-3" style="background: #203893;">
 
             <h2 class="topic py-5" style="text-align:center; color: white;">About Notify</h2>
 
             <div class="row">
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" style="text-align: center;">
-                    <img src="./images/blue_social.svg" style=" width: 30%;">
+                    <img src="./images/iphone2.svg" style=" width: 30%;">
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 py-5 pl-5" style="color: white;"><!--font-size:90%;height: 27px;-->
@@ -82,59 +82,61 @@ if(isset($_POST["submit"]))
             </div>
 
         </section>
-
         <section class="container-fluid my-5" style="background: #F5F7F7;">
-            <div class="row py-5">
+            <div class="row py-3">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 topic" style="text-align:center;">
                     <h2>How Notify Works</h2>
-                    <p>These 4 simple steps are all<br>you need to get started</p>
+                    <p>These 4 things you need to know<br>to get started</p>
                 </div>
             </div>
             <div class="row pl-5">
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/1.png" class="py-2" style="text-align: center;">
-                    <h6>sign in or sign up</h6>
-                    <p style="width: 80%;" class="py-2">Create an account with your personal details</p>
+                    <!--<h6>sign in or sign up</h6>-->
+                    <p style="width: 80%;" class="py-2">Learning your preferred style of getting notifications. </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/2.png" class="py-2" style="text-align: center;">
-                    <h6>Select your Accounts</h6>
-                    <p style="width: 80%;" class="py-2">Add all your social media accounts according to your level of priority. With 5 being the highest.</p>
+                    <!--<h6>Select your Accounts</h6>-->
+                    <p style="width: 80%;" class="py-2">Arranging your notifications in order of importance. </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/3.png" class="py-2" style="text-align: center;">
-                    <h6>Verify your accounts</h6>
-                    <p style="width: 80%;" class="py-2">Verification code will be sent to you on each app you want linked</p>
+                    <!--<h6>Verify your accounts</h6>-->
+                    <p style="width: 80%;" class="py-2">Prioritizing your preferences over others. </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pl-5">
                     <img src="./images/4.png" class="py-2" style="text-align: center;">
-                    <h6>Dashboard</h6>
-                    <p style="width: 80%;" class="py-2">Viola<br><br>Your dashboard containing all your registered accounts</p>
+                    <!--<h6>Dashboard</h6>-->
+                    <p style="width: 80%;" class="py-2">Bringing notifications that matter most to your fingertips</p>
                 </div>
             </div>
         </section>
 
         <section class="container py-5 topic" style="text-align:center;">
                 <h2>Features</h2>
-                <p>Let's connect all your important social media notifications in one place</p>
+                <p width: 60%>Let's connect all your important social media notifications in one place</p>
 
             <div class="row py-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/phone.png" style="width:50%">
+                    <img src="./images/iphone3.svg" style="width:40%; animation-name: phone1;animation-duration: 2s;animation-delay: 10s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Get Rid of the Dirts
+                        You can increase your focus by getting rid of useless notifications. Notify allows you to control what comes to you and in what order. Carefully select the social media notifications you want and get trash notifications away! </p>
                 </div>
             </div>
             <div class="row py-5">
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 large">
-                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Never Miss Important Notifications. 
+                        Bye-bye to missed opportunities. Notify allows you to determine your most important notifications and bring them straight to your reach, with an easily customizable experience. </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <img src="./images/phone.png" style="width:50%">
+                    <img src="./images/iphone4.svg" style="width:40%; animation-name: phone2;animation-duration: 2s;animation-delay: 10s;">
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 small">
-                    <p style="width: 90%;" class="p-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ducimus nesciunt aliquid ipsa. Incidunt perferendis molestiae ducimus accusamus est minus, reprehenderit iure provident hic sequi maiores amet earum sint ex!</p>
+                    <p style="width: 85%; padding-top: 20%; padding-left: 20%;" class="">Never Miss Important Notifications. 
+                        Bye-bye to missed opportunities. Notify allows you to determine your most important notifications and bring them straight to your reach, with an easily customizable experience. </p>
                 </div>
             </div>
         </section>
@@ -149,39 +151,22 @@ if(isset($_POST["submit"]))
                     
                     <p style="width: 120%;">Let’s help keep your Social Media Notifications<br>organized when we launch.</p>
                     <form method = "post" class="py-3">    
-                        <input type="email" name="umail" placeholder="Enter Email Address" style="border-color: 1px solid #203893; box-sizing: border-box; position: relative; height: 48.8px; width:65%;font-size: 75%;" class="p-2">
-                        <input type="submit" id="notify"  name="Notify Me" style="background: #203893; color: white; border: none; height: 48.8px; width: 15%;font-size: 80%;" class="px-4">
+                        <input type="email" name="umail" placeholder="Enter Email Address" style="border-color: 1px solid #203893; box-sizing: border-box; position: relative; height: 48.8px; width:65%;font-size: 55%;" class="p-2">
+                        <input type="submit" id="notify"  name="Notify Me" style="background: #203893; color: white; border: none; height: 48.8px; width: 25%;font-size: 80%;" class="px-4">
                     </form>    
                 </div>
             </div>
         </section>
         <footer class="container-fluid" style="background: #203893;">
             <div class="row p-5" style="text-align: center;">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <h2 style="color: white;"><span><img src="./images/logo_white.svg" style=""></span>Notify</h2>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="animation-name: third;animation-duration: 12s;animation-iteration-count: infinite;">
+                    <h2 style="color: white;"><span><img src="./images/logo_white.svg"></span>Notify</h2>
                 </div>
-                <!--<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="clockdiv">
-                    <div id="clockdiv">
-                        <div>
-                            <span class="days"></span>
-                            <div class="smalltext">Days</div>
-                        </div>
-                        <div>
-                            <span class="hours"></span>
-                            <div class="smalltext">Hours</div>
-                        </div>
-                        <div>
-                            <span class="minutes"></span>
-                            <div class="smalltext">Minutes</div>
-                        </div>
-                        <div>
-                            <span class="seconds"></span>
-                            <div class="smalltext">Seconds</div>
-                        </div>
-                    </div>
-                </div>-->
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <h3 style="color: white;">Coming Soon</h3>
+                        
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h3 style="color: white;animation-name: fourth; animation-duration: 12s;animation-iteration-count:infinite;">Coming Soon</h3>
                 </div>
             </div>
         </footer>
