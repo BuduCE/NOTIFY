@@ -61,12 +61,12 @@
     /*transform: translateX(100px,100px);scalex(2,2)*/
     transition: ;
 }
-/*.coming{
+.coming{
     transition: 0.5s linear;
 }
 .coming:hover{
     transform: rotate(360deg);
-}*/
+}
 #notify{
     position: absolute;
 }
